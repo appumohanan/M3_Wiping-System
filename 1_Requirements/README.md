@@ -3,21 +3,26 @@
 ## Introduction
 * I have done this project with my basic knowledge on embedded c 
 * For this project embedded c language is used 
-* And basic knowledge of ATmega328 architecture  is needed.
+* And basic knowledge of ARM architecture  is needed.
 ## RESEARCH
 
-- Door sensor will sense if there anyone present or not.
-- Modular Approach.
-- Door sensors are an essential component of your home security system: they let you know when someone is entering your home. These devices are made up of two parts, which form a circuit when they’re kept parallel to each other. 
+- Windscreen wiper is essential for keeping the windscreen sufficiently clean for driver’s visibility specifically for modern high speed vehicles. 
+- The washer cleans the driver’s side of the windscreen whenever required.
+- Modern windshield wipers may also be run intermittently. The intermittent wiper option cycles the wipers on and off every few seconds rather than running constantly.
 
+![PI](https://user-images.githubusercontent.com/80033796/167176901-c5de4faa-dad3-4936-9e9f-45dc2dba2135.jpg)
 ## Benefits
-    The main aim is to develop a simple door sensor to let you know when someone is entering your home.
+
+- Efficient removal of dirt, water and snow
+- The ability to pass the stall and snow load test.
+- The wiper control switch has several modes to change wiper speed, and in many cases to turn the wipers on intermittently.
     
  ## Cost and Features
-     There is no cost for using this sensor.
+ ### Cost
+     There is no cost for using this wiper system.
  ### Features
- * To safeguard valuable things.
- * To keep us alert when someone enters the place.
+ * The vehicle's wiper blades provide an assurance of good, glare-free visibility in all weather conditions
+ * It cleans the windshield and helps to see clearly during dust storms and heavy rainfall. 
 
 ## Folder Structure
 |Folder             | Description |
