@@ -34,7 +34,7 @@
 
 ## SWOT Analysis
 
-![door sensor](https://user-images.githubusercontent.com/80033796/164544892-334a1838-f432-407e-a205-eb1bc3b99512.png)
+![SWOT ANALYSIS](https://user-images.githubusercontent.com/80033796/167697474-b553a19b-704d-4ab0-8def-72f13954591a.png)
 
 ## 4W's and 1'H
 
