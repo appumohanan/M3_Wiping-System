@@ -19,7 +19,7 @@
     
  ## Cost and Features
  ### Cost
-     There is no cost for using this wiper system.
+ * There is no cost for using this wiper system.
  ### Features
  * The vehicle's wiper blades provide an assurance of good, glare-free visibility in all weather conditions
  * It cleans the windshield and helps to see clearly during dust storms and heavy rainfall. 
@@ -43,29 +43,30 @@
  ### Where:-
    Can be used at home,banks,hostels,organisations to keep a track on unknown entries.
  ### When:-
-   Can be used to protect valuable things.
+   Can be used in all four wheeler vehicles.
  ### Why:-
-   To detect ehenever a person enters a room/home.
+   To avoid accidents due to unclear screen.
  ### How:-
-   By using Embedded C programming and SimulIDE.
+   By using QEMU and STM32 CUBE IDE .
 
 
-## Detail requirements
-### High Level Requirements
-| High Level Requirements      | Description |
+## DETAIL REQUIREMENTS
+
+### HIGH LEVEL REQUIREMENTS
+| HIGH LEVEL REQUIREMENTS     | DESCRIPTION | 
 | ----------- | ----------- |
-| HLR1      | Microcontroller   |
-| HLR2   | door Sensor|
-| HLR3  | Display|
-| HLR4   | Software used|
+| HLR1      | EMBEDDED C LANGUAGE |
+| HLR2   | STM32 ARM BASED MICROCONTROLLER|
+| HLR3  | WINDOWS OS |
+| HLR4   | MINIMUM 4GB RAM|
+| HLR5   | MINIMUM 10GB HARD DISK|
 
-### Low Level Requirements
-| Low Level Requirements      | Description |
+### LOW LEVEL REQUIREMENTS
+| LOW LEVEL REQUIREMENTS | DESCRIPTION |
 | ----------- | ----------- |
-| HLR1_LLR1   | ATmega328     |
-| HLR2_LLR1   |  ADC|
-| HLR2_LLR2   | ADC with PWM-fast|
-| HLR3_LLR1   |LED|
-| HLR4_LLR1   | Code Blocks with AVR GCC compiler |
-| HLR5_LLR2   | SimulIDE |
+| LLR1   | PRESSING THE SWITCH FOR 2 SEC - RED LED IS ON    |
+| LLR2   | PRESSING THE SWITCH FOR SECOND TIME - ORANGE,GREEN,BLUE LED IS ON A SET OF FREQUENCY|
+| LLR3   | PRESSING THE SWITCH FOR THIRD TIME - LED's SPEED INCREASES|
+| LLR4   |PRESSING THE SWITCH FOR FOURTH TIME - LED IS OFF|
+| LLR5   |  PRESSING THE SWITCH FOR 2 SEC FOR THE FIFTH - RED LED IS OFF  |
 
