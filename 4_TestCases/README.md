@@ -1,27 +1,24 @@
-# TEST CASES and Corresponding Output
+# TEST CASES 
 
-## High Level Test Cases
-| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
-| --------|:------------|:--------|:--------|:-----------|:-------------|
-| 1 | check if the BUTTTON is pressed  | program execution | Microcontroller/Engine starts | LED ON(RED)| PASS |
-| 2 | check if the BUTTTON is pressed  | program execution | WIPER starts | LED ON(BLUE)| PASS |
-| 3 | check if the BUTTTON is pressed  | program execution | WIPER starts | LED ON(GREEN)| PASS |
-| 4 | check if the BUTTTON is pressed  | program execution | WIPER starts | LED ON(ORANGE)| PASS |
-| 5 | check if the BUTTTON is pressed  | - | Microcontroller/Engine stops | LED TURNED OFF| PASS |
+## HIGH LEVEL TEST CASES
 
-
-
+| S.NO | DESCRIPTION | INPUT| OUTPUT | VISUAL OUTPUT | 
+| --------|:------------|:--------|:--------|:-----------|
+| 1 | BUTTON PRESSED FOR 2 sec  | INPUT THE PROGRAM | MICROCONTROLLER STARTS | RED LED ON| 
+| 2 |  BUTTTON PRESSED FOR  1 sec | INPUT THE PROGRAM | WIPER RUNS | BLUE LED ON| 
+| 3 |  BUTTTON  PRESSED FOR 0.25 sec | INPUT THE PROGRAM | WIPER RUNS | GREEN LED ON| 
+| 4 |  BUTTTON PRESSED FOR 0.125 sec  | INPUT THE PROGRAM | WIPER RUNS | ORANGE LED ON|  
+| 5 | BUTTTON PRESSED FOR 2 sec  | PROGRAM EXITS |MICROCONTROLLER STOPS |RED LED OFF| 
 
 
 
 
+## LOW LEVEL TEST CASES
 
-
-## Low Level Test Cases
-| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
-| --------|:------------|:--------|:--------|:-----------|:-------------|
-| 1 | check if the BUTTTON is pressed  | program execution | Microcontroller/Engine starts | LED ON(RED)| PASS |
-| 2 | check if the BUTTTON is pressed again | program execution | WIPER starts and speed of wiper is slow | LED ON(BLUE)| PASS |
-| 3 | check if the BUTTTON is pressed again | program execution | WIPER starts and speed of wiper is moderate | LED ON(GREEN)| PASS |
-| 4 | check if the BUTTTON is pressed again | program execution | WIPER starts and speed of wiper is good | LED ON(ORANGE)| PASS |
-| 5 | check if the BUTTTON is pressed again | - | Microcontroller/Engine stops | LED TURNED OFF| PASS |
+| S.NO | DESCRIPTION | INPUT | OUTPUT | VISUAL OUTPUT |
+| --------|:------------|:--------|:--------|:-----------|
+| 1 | BUTTON PRESSED FOR 2 sec  | INPUT THE PROGRAM | STM32F407VGTx STARTS | RED LED ON| 
+| 2 |  BUTTTON PRESSED FOR  1 sec | INPUT THE PROGRAM | LED RUNS AT 1 Hz | BLUE LED ON| 
+| 3 |  BUTTTON  PRESSED FOR 0.25 sec | INPUT THE PROGRAM | LED RUNS AT 4 Hz| GREEN LED ON| 
+| 4 |  BUTTTON PRESSED FOR 0.125 sec  | INPUT THE PROGRAM | LED RUNS AT 8 Hz| ORANGE LED ON|  
+| 5 | BUTTTON PRESSED FOR 2 sec  | PROGRAM EXITS |STM32F407VGTx STOPS |RED LED OFF| 
