@@ -63,5 +63,3 @@ The power supply is given to the microcontroller.Then on pressing the switch for
 
 ![3](https://user-images.githubusercontent.com/80033796/168138826-7b9fa596-8828-4fcd-8494-9597ddb071b8.png)
 
-
-
