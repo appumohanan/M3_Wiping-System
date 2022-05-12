@@ -1,4 +1,4 @@
-# DOOR SENSOR
+# WIPER CONTROL SYSTEM
 
 ## INTRODUCTION
 
@@ -8,12 +8,12 @@ Windscreen wiper is essential for keeping the windscreen sufficiently clean for 
 
 ## OBJECTIVE
 
-* Rain-sensing windshield wipers detect moisture on the windshield and activate the wipers to help increase driver visibility. 
-* Once the system is turned on, there is no need for the driver to activate, deactivate or adjust wiper speed under normal driving conditions.
+* Rain-sensing windshield wipers detect moisture on the windshield and activate the wipers to help increase driver visibility.
+* Once the system is turned on, there is no need for the driver to activate, deactivate or adjust wiper speed under normal driving condition
 
 ## SOFTWARE USED
 
-* STM CUBE IDE
+* STM32 CUBE IDE
 * QEMU
 
 ## COMPONENTS USED
@@ -21,28 +21,47 @@ Windscreen wiper is essential for keeping the windscreen sufficiently clean for 
 * STM32F407VGTx
 * Switch
 * LED
-* POWER
-
+* Ground
+* 
 ## WORKING
 
-The  power is supplied to the microcontroller.And when the switch is pressed for 2 sec ignition starts ,then on next presses led gets on and again pressing the switch for 2 sec ignition stops.
+The power supply is given to the microcontroller.Then on pressing the switch for 2 sec ignition starts and on next presses LED glows and on pressing the switch for 2 sec ignition stops.
+ 
+## APPLICATION
+
+* It is used in four wheeler 
+* It is used in aircraft
+*  It is used in train
+*  It is used in six wheeler
+
+## ADVANTAGES
+
+* Free from wear adjustment.
+*  Less power consumption.
+*  Operating principle is very easy Installation is simple.
+*  It is possible to operate manually/automatically by providing On/Off switch
 
 ## BLOCK DIAGRAM
 
-![BLOCK DIAGRAM](https://user-images.githubusercontent.com/80033796/168135070-79874239-6cc9-450a-b99c-8f75ec3fc2aa.png)
+![BLOCK DIAGRAM](https://user-images.githubusercontent.com/80033796/168139402-b08e9788-77a5-4688-909b-0e1ef26805db.png)
 
 ## FLOW CHART
 
-![FLOW CHART](https://user-images.githubusercontent.com/80033796/168135156-30ff25b8-2a28-4ca3-a62f-c15371f8897f.png)
+![FLOW CHART](https://user-images.githubusercontent.com/80033796/168139407-cb2943ff-e19b-4b06-94cb-ca5a7e03a12c.png)
 
 ## OUTPUT
 
-### DOOR OPEN
+### IGNITION ON
 
-![door open-out](https://user-images.githubusercontent.com/80033796/164676514-71e4c141-c69f-44dd-88af-d3b536c8e349.png)
+![1](https://user-images.githubusercontent.com/80033796/168138673-9f4bc82d-bcc9-4e25-bed7-c948b73877d5.png)
 
-### DOOR CLOSE
+### LED ON
 
-![door close-out](https://user-images.githubusercontent.com/80033796/164676490-c761e002-9c3f-41bc-af76-2d1046114fa5.png)
+![2](https://user-images.githubusercontent.com/80033796/168138834-bfb0a171-ee25-403c-8b46-c1bfb9bfc125.png)
+
+### IGNITION OFF
+
+![3](https://user-images.githubusercontent.com/80033796/168138826-7b9fa596-8828-4fcd-8494-9597ddb071b8.png)
+
 
 
